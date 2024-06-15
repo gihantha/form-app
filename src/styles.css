@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    margin: 2remn;
+  font-family: 'Inter', sans-serif
+  }
+  
+  .app-container {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    height: 60px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: left;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .left-section {
+    max-width: 45%;
+  }
+  .left-section h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  }
+  
+  .right-section {
+    max-width: 45%;
+  }
+  
+  .start-button {
+    
+    box-sizing: border-box;
+    border-radius: 13px;
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+    text-transform: none;
+    background-color: #a17ff5;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+    
+  }
+  
+  .start-button .enter-key {
+    font-size: 12px;
+  }
+  
+  .filled-out {
+    margin-top: 10px;
+  }
+  
+  .rating {
+    font-size: 18px;
+  }
+  
+  .rating h1 {
+    font-size: 60px;
+    color: grey;
+  }
+  
+  .logos img {
+    height: 40px;
+    margin: 10px;
+  }
+  
