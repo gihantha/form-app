@@ -1,16 +1,23 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import './styles.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Row from 'react-bootstrap/Row';
+import NavbarCom from './components/Navbar'; 
+import Form from './components/Form';
+import Content from './components/Content';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <MainContent/>
-      <Footer/>
+    <div className='App'>
+      <Router>
+        <Row style={{ width: "100%", height: "100%" }}>
+          <NavbarCom />
+          <Routes>
+            <Route path="/" element={<Content />} />
+            <Route path="/form" element={<Form />} />
+          </Routes>
+        </Row>
+      </Router>
     </div>
   );
 }
